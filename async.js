@@ -61,3 +61,15 @@ async function cekAkun(){
         
     }
 }
+
+
+async function test(s){
+  try {
+    luasP = s*s;
+    KelilingP = 4*s;
+    console.log(await luasP, await kelelingP);
+  } catch (error) {
+    console.log("error bok", error);
+    
+  }
+}
